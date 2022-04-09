@@ -48,7 +48,7 @@ export default class DataService {
         const empls: Employee[] = [];
         for (const employee of employees) {
             if (employee.possition === possition) {
-                empls.push(employee);
+                empls.push(employee);a
             }
         }
         return empls;
